@@ -1,0 +1,139 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+#home{
+    background-image:url(bg.png),linear-gradient(to bottom right,rgb(30,30,30), rgb(0, 0, 0));
+    background-position: left top, left top;
+    margin: -8px;
+    display: block;
+}
+#h2{
+    display: block;
+    width:100%;
+    height: 500px;
+    background-color: orangered;
+}
+#icon{
+    margin:65px;
+    display: inline;
+    padding-top: 50px;
+}
+#logoname{
+    font-family: 'Zen Dots', cursive;
+    display: inline;
+    color:rgb(232, 9, 9);
+    font-size: 52px;
+}
+#heading{
+    display: inline;
+}
+#heading li{
+    font-family: 'Zen Dots', cursive;
+    font-size: 18px;
+    color:wheat;
+    display: inline;
+    margin:35px;
+}
+#heading ul{
+    display:inline;
+    margin-right: 20px;
+    justify-content: right;
+    float: right;
+    margin-top: 20px;
+}
+.hvr:hover{
+    color: white;
+    background-color: orangered;
+    border-radius: 10px;;
+    padding: 10px;
+}
+#photo{
+    float: left;
+}
+#ll{
+    
+    height: 472px;
+}
+#fcbok{
+    height: 28px;
+    width: 44px;
+}
+#insta{
+    height: 28px;
+    width: 34px;
+}
+#kop{
+    height: 100%;
+}
+#image1{
+    height: 467px;
+    width: 353px;
+    padding-left: 234px;
+    padding-top: 97px;
+}
+#inin{
+    height: 413px;
+    width: 742px;
+    border: 7px solid orangered;
+    border-radius: 7px;
+    float: right;
+    position: relative;
+    top: 100px;
+    right: 237px;
+}
+#vegetables{
+    color: white;
+    display: inline;
+    background-color: orangered;
+    border: 5px solid orangered;
+    border-radius: 7px;
+    border-bottom-left-radius: 0px;
+    font-size: 47px;
+    font-family: 'Zen Dots', cursive;
+    position: relative;
+    right: 2px;
+}
+#inin p{
+    color: white;
+    font-size: 30px;
+}
+#protienimg{
+    float: right;
+    position: relative;
+    top: 19px;
+    right: 90px;
+}
+#box2{
+    height: 500px;
+}
+#box2in{
+    float: left;
+    height: 413px;
+    width: 742px;
+    border: 5px solid orangered;
+    border: 7px solid orangered;
+    border-radius: 7px;
+    position: relative;
+    top: 12px;
+    left: 310px;
+}
+#boxin h3{
+    color: white;
+    display: inline;
+    background-color: orangered;
+    border: 5px solid orangered;
+    border-radius: 7px;
+    border-bottom-left-radius: 0px;
+    font-size: 47px;
+    font-family: 'Zen Dots', cursive;
+    position: relative;
+    right: 2px;
+}
+#box2in p{
+    color: white;
+    font-size: 30px;
+}

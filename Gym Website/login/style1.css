@@ -1,0 +1,141 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+#home{
+    background-image:url(bg.png),linear-gradient(to bottom right,rgb(30,30,30), rgb(0, 0, 0));
+    background-position: left top, left top;
+    margin: -8px;
+    display: block;
+}
+#logoname{
+    font-family: 'Zen Dots', cursive;
+    display: inline;
+    color:rgb(232, 9, 9);
+    font-size: 52px;
+}
+#heading li{
+    font-family: 'Zen Dots', cursive;
+    font-size: 18px;
+    color:wheat;
+    display: inline;
+    margin:35px;
+}
+#heading ul{
+    display:inline;
+    margin-right: 20px;
+    justify-content: right;
+    float: right;
+    margin-top: 20px;
+}
+#mdl{
+    padding-top: 10px;;
+   padding-left: 11.3vw;
+   width: 378px;
+   height: 100%;
+}
+#icon{
+    margin:65px;
+    display: inline;
+    padding-top: 50px;
+}
+#heading{
+    display: inline;
+}
+.hvr:hover{
+    color: white;
+    background-color: orangered;
+    border-radius: 10px;;
+    padding: 10px;
+}
+#fcbok{
+    height: 28px;
+    width: 44px;
+}
+#insta{
+    height: 28px;
+    width: 34px;
+}
+#ll{
+    height: 472px;
+}
+#lgn{
+    float: right;
+    height: 353px;
+    width: 649px;
+    border: 7px solid orangered;
+    border-radius: 7px;
+    position: relative;
+    top: 40px;
+    right: 119px;
+}
+#nameinput{
+    font-family: 'Zen Dots', cursive;
+    margin-top: 10px;
+    padding-top: 0px;
+    color: white;
+    background-color: orangered;
+    font-size: 22px;
+    position: relative;
+    top: 36px;
+    left: 29px;
+    border: 5px solid orangered;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#emailinput1{
+    font-family: 'Zen Dots', cursive;
+    margin-top: 10px;
+    padding-top: 0px;
+    color: white;
+    background-color: orangered;
+    border: 5px solid orangered;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 22px;
+    position: relative;
+    top: 64px;
+    left: 29px;
+}
+#inpt{
+    display: block;
+    border: 5px solid orangered;
+    position: relative;
+    top: 36px;
+    left: 29px;
+    width:88%;
+    height: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#emailinput{
+    display: block;
+    border: 5px solid orangered;
+    width: 88%;
+    height: 30px;
+    position: relative;
+    top: 69px;
+    left: 29px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#registerbutton{
+    font-family: 'Zen Dots', cursive;
+    height: 86px;
+    width: 390px;
+    position: relative;
+    top: 100px;
+    left: 124px;
+    background-color: orangered;
+    border-radius: 7px;
+}
+#registerbutton:hover{
+    color:orangered;
+    background-color: white;
+    border:7px solid orangered;
+}

@@ -1,0 +1,253 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+#home{
+    background-image:url(bg.png),linear-gradient(to bottom right,rgb(30,30,30), rgb(0, 0, 0));
+    background-position: left top, left top;
+    margin: -8px;
+    display: block;
+}
+#h2{
+    display: block;
+    width:100%;
+    height: 500px;
+    background-color: orangered;
+}
+#icon{
+    margin:65px;
+    display: inline;
+    padding-top: 50px;
+}
+#logoname{
+    font-family: 'Zen Dots', cursive;
+    display: inline;
+    color:rgb(232, 9, 9);
+    font-size: 52px;
+}
+#heading{
+    display: inline;
+}
+#heading li{
+    font-family: 'Zen Dots', cursive;
+    font-size: 18px;
+    color:wheat;
+    display: inline;
+    margin:35px;
+}
+#heading ul{
+    display:inline;
+    margin-right: 20px;
+    justify-content: right;
+    float: right;
+    margin-top: 20px;
+}
+.hvr:hover{
+    color: white;
+    background-color: orangered;
+    border-radius: 10px;;
+    padding: 10px;
+}
+#photo{
+    float: left;
+}
+#ll{
+    
+    height: 472px;
+}
+#fcbok{
+    height: 28px;
+    width: 44px;
+}
+#insta{
+    height: 28px;
+    width: 34px;
+}
+#mdl{
+    padding-top: 30px;;
+   padding-left: 5.3vw;
+   
+}
+#sptxt{
+    font-size: 50px;
+    font-family: 'Russo One', sans-serif;
+    display:inline;
+    color:azure;
+    float: right;
+    position: absolute;
+    top: 214px;
+    right: 170px;
+}
+#txt1{
+    font-family: 'Zen Dots', cursive;
+    font-size: 15px;
+    display: inline;
+    align-items: center;
+    float: right;
+    color: aliceblue;
+    border: 2px solid orangered;
+    background-color: orangered;
+    border-radius: 5px;
+    position: absolute;
+    top: 200px;
+    right: 624px
+}
+#txt2{
+    font-family: 'Zen Dots', cursive;
+    font-size: 20px;
+    display: inline;
+    float: right;
+    color: aliceblue;
+    border: 2px solid orangered;
+    background-color: orangered;
+    border-radius: 5px;
+    position:absolute;
+    top: 301px;
+    right: 624px;
+}
+#lsts{
+    display: inline;
+    justify-content: right;
+    float: right;
+}
+#txt2:hover{
+    color: orangered;
+    border: 2px solid wheat;
+    background-color:wheat;
+}
+#info{
+    display: block;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+#about{
+    position: relative;
+    top: 95px;
+    left: 139px;
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Zen Dots', cursive;
+    font-size: 21px;
+}
+#info1{
+    width: 668px;
+    position: absolute;
+    top: 109px;
+    left: 140px;
+    font-size: 25px;
+}
+#aboutimg{
+    float: right;
+    height: 400px;
+    width: 400px;
+    padding-right:100px;
+}
+#down{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    background-image:url(bg.png),linear-gradient(to bottom right,rgb(30,30,30), rgb(0, 0, 0));
+    background-position: left top, left top;
+}
+#trainer{
+    display: inline;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 267px;
+    left: 205px;
+    border-radius: 15px;
+    background-color: orangered;
+}
+#trainer1{
+    width: 90px;
+    height: 90px;
+    padding: 5px;
+    border-radius: 15px;
+    
+}
+#trainername{
+    float:right;
+    color: aliceblue;
+    font-size: 23px;
+    font-family: 'Russo One', sans-serif;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+#coachname{
+    display: inline;
+    float:left;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: 'Russo One', sans-serif;
+    position: absolute;
+    top: 37px;
+    left: 102px;
+}
+#youtubevdo{
+    display: inline;
+    position: relative;
+    top: 100px;
+    left: 20px;
+    border:7px solid orangered;
+    border-radius: 15px;
+}
+#gymvideo{
+    float: left;
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    position: relative;
+    background-color: orangered;
+    font-size: 22px;
+    top: 74px;
+    left: 210px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#images1{
+    float: right;
+    height: 315px;
+    width: 560px;
+    position: relative;
+    top: 100px;
+    right: -75px;
+    border: 7px solid orangered;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+#imgs{
+    zoom: normal;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+#btns1{
+    display: inline;
+    float: right;
+    position:relative;
+    top: 46px;
+    right: 146px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#aa{
+    display: inline;
+    float: right;
+    background-color: orangered;
+    padding: 12px;
+    
+}
+#footer{
+    height: 200px;
+    width: 100%;
+}

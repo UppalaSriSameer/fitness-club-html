@@ -1,0 +1,149 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+#home{
+    background-image:url(bg.png),linear-gradient(to bottom right,rgb(30,30,30), rgb(0, 0, 0));
+    background-position: left top, left top;
+    margin: -8px;
+    display: block;
+}
+#h2{
+    display: block;
+    width:100%;
+    height: 500px;
+    background-color: orangered;
+}
+#icon{
+    margin:65px;
+    display: inline;
+    padding-top: 50px;
+}
+#logoname{
+    font-family: 'Zen Dots', cursive;
+    display: inline;
+    color:rgb(232, 9, 9);
+    font-size: 52px;
+}
+#heading{
+    display: inline;
+}
+#heading li{
+    font-family: 'Zen Dots', cursive;
+    font-size: 18px;
+    color:wheat;
+    display: inline;
+    margin:35px;
+}
+#heading ul{
+    display:inline;
+    margin-right: 20px;
+    justify-content: right;
+    float: right;
+    margin-top: 20px;
+}
+.hvr:hover{
+    color: white;
+    background-color: orangered;
+    border-radius: 10px;;
+    padding: 10px;
+}
+#photo{
+    float: left;
+}
+#ll{
+    
+    height: 472px;
+}
+#fcbok{
+    height: 28px;
+    width: 44px;
+}
+#insta{
+    height: 28px;
+    width: 34px;
+}
+#bx{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+#aim{
+    color: white;
+    border: 5px solid orangered;
+    height: 374px;
+    width: 851px;
+    border-radius: 7px;
+}
+#aim h3{
+    display: inline;
+    background-color: orangered;
+    border: 5px solid orangered;
+    border-bottom-right-radius: 7px;
+    font-size: 35px;
+    position: relative;
+    right: 2px;
+}
+#aim p{
+    color: white;
+    font-size: 23px;
+}
+#gg{
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+#coach{
+    border: 5px solid orangered;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 456px;
+    width: 570px;
+}
+#coachinfo{
+    border: 5px solid orangered;
+    height: 456px;
+    width: 670px;
+    border-top-right-radius:7px;
+    border-bottom-right-radius: 7px;
+}
+#coachinfo h3{
+    display: inline;
+    background-color: orangered;
+    border: 5px solid orangered;
+    border-bottom-right-radius: 7px;
+    font-size: 35px;
+    position: relative;
+    right: 2px;
+}
+#coachinfo p{
+    font-size: 29px;
+}
+#gk{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+#location{
+    height: 200px;
+    width: 300px;
+    border: 5px solid orangered;
+    border-radius: 7px;
+    margin: 13px;
+}
+#location h3{
+    display: inline;
+    background-color: orangered;
+    border: 5px solid orangered;
+    border-bottom-right-radius: 7px;
+    font-size: 35px;
+    position: relative;
+    right: 2px;
+}
+#location p{
+    font-size: 20px;
+}

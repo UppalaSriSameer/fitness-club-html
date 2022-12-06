@@ -1,0 +1,141 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+#home{
+    background-image:url(bg.png),linear-gradient(to bottom right,rgb(30,30,30), rgb(0, 0, 0));
+    background-position: left top, left top;
+    margin: -8px;
+    display: block;
+}
+#h2{
+    display: block;
+    width:100%;
+    height: 500px;
+    background-color: orangered;
+}
+#icon{
+    margin:65px;
+    display: inline;
+    padding-top: 50px;
+}
+#logoname{
+    font-family: 'Zen Dots', cursive;
+    display: inline;
+    color:rgb(232, 9, 9);
+    font-size: 52px;
+}
+#heading{
+    display: inline;
+}
+#heading li{
+    font-family: 'Zen Dots', cursive;
+    font-size: 18px;
+    color:wheat;
+    display: inline;
+    margin:35px;
+}
+#heading ul{
+    display:inline;
+    margin-right: 20px;
+    justify-content: right;
+    float: right;
+    margin-top: 20px;
+}
+.hvr:hover{
+    color: white;
+    background-color: orangered;
+    border-radius: 10px;;
+    padding: 10px;
+}
+#photo{
+    float: left;
+}
+#ll{
+    
+    height: 472px;
+}
+#fcbok{
+    height: 28px;
+    width: 44px;
+}
+#insta{
+    height: 28px;
+    width: 34px;
+}
+#bx1{
+    width: 100%;
+    height:500px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+}
+#silver{
+    width: 185px;
+    height: 360px;
+    border: 7px solid transparent;
+    border-radius: 5px;
+}
+#silver h3{
+    background-color: silver;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 7px;
+    color: azure;
+}
+#silver ul{
+    padding-left: -20px;
+    display: inline;
+}
+#silver ul li{
+    color: white;
+    list-style: none;
+    padding: 5px;
+}
+#gold{
+    width: 185px;
+    height: 360px;
+    border: 7px solid transparent;
+    border-radius: 5px;
+}
+#gold h3{
+    background-color: gold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 7px;
+    color: azure;
+}
+#gold ul{
+    padding-left: -20px;
+    display: inline;
+}
+#gold ul li{
+    color: white;
+    list-style: none;
+    padding: 5px;
+}
+#diamond{
+    width: 185px;
+    height: 360px;
+    border: 7px solid transparent;
+    border-radius: 5px;
+}
+#diamond h3{
+    background-color:cyan;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 7px;
+    color: azure;
+}
+#diamond ul{
+    padding-left: -20px;
+    display: inline;
+}
+#diamond ul li{
+    color: white;
+    list-style: none;
+    padding: 5px;
+}
